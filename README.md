@@ -10,12 +10,20 @@ RaspberryPI + jeedom + habridge + homebridge
 curl https://get.docker.com | sudo bash
 ```
 
-### 2. Copy docker-compose.yml to your RPi
+### 2. Download docker-compose.yml to your RPi
 
-Then run
+Download the latest docker-compose.yml:
 
 ```
-docker-compose up
+curl https://raw.githubusercontent.com/AaronO/autohome/master/docker-compose.yml > docker-compose.yml
 ```
 
-### 3. That's all
+### 3. Run it
+
+Then start it:
+
+```
+sudo docker-compose up
+```
+
+### 4. That's all
