@@ -2,7 +2,15 @@
 
 RaspberryPI + jeedom + habridge + homebridge
 
-## Setup on your raspberry Pi
+## Quick install
+
+```
+curl https://omullan.com/autohome/install.sh | bash
+```
+
+## Step-by-step setup on your raspberry Pi
+
+Manually do what `install.sh` does.
 
 ### 1. Install a modern version of docker
 
